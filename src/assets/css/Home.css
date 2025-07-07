@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+}
+
+
+.header-title {
+  color: #fff;
+  cursor: pointer;
+  margin: 0;
+}
+
+.header-title:hover {
+  text-decoration: underline;
+}
+
+
+.search-bar {
+  max-width: 400px;
+  margin: 0 auto 30px auto;
+  display: block;
+}
+
+/* Movie grid spacing */
+.ant-row {
+  padding: 0 20px;
+}
+
+/* MovieCard container */
+.ant-col {
+  display: flex;
+  justify-content: center;
+}
+
+/* Responsive design */
+@media (max-width: 992px) {
+  .ant-col {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  .ant-col {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .search-bar {
+    max-width: 90%;
+  }
+}
+
+.movie-card {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.movie-card:hover {
+  transform: scale(1.02);
+}

@@ -1,0 +1,21 @@
+/* Cart.css */
+
+.cart-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.cart-card {
+  width: 100%;
+  max-width: 600px;
+}
+
+.cart-title {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
